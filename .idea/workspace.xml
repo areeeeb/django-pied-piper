@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd9b5cfe-66bc-4daf-ba07-180b721b72a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/choice_compression.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/choice_decompression.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/download.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_coding/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_coding/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/choice_compression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/choice_decompression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/compress.html" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/download.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_coding/templates/huffman_coding/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/huffman_coding/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_coding/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/huffman_coding/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_coding/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/compressed/0.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/compressed/1.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/compressed/2.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/compressed/3.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/metadata/0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/metadata/1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/metadata/2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/metadata/3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/compressed/0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/media/compressed/0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/metadata/0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/media/metadata/0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/HuffmanTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/HuffmanTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/helper_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/helper_functions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/script" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -139,7 +134,7 @@
       <updated>1577822526872</updated>
       <workItem from="1577822528016" duration="1557000" />
       <workItem from="1577892204687" duration="4967000" />
-      <workItem from="1577952754755" duration="30993000" />
+      <workItem from="1577952754755" duration="37869000" />
     </task>
     <servers />
   </component>

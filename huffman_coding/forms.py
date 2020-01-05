@@ -7,3 +7,7 @@ class TextFileForm(forms.Form):
 
 class ImageFileForm(forms.Form):
     image_file = forms.ImageField(label='Upload .bmp Image File')
+
+
+class BinaryFileForm(forms.Form):
+    binary_file = forms.FileField(label='Upload compressed.bin File')

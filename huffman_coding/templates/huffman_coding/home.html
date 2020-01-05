@@ -1,14 +1,12 @@
 {% extends "huffman_coding/base.html" %}
 
 {% block content %}
-
     <div>
         <h3 class="title slide-up-animation hidden"> <br> A Lossless Compression Website <br></h3>
-                    <button onclick="window.location.href = 'text_compress'" class="code-copy">Compress Text</button>
-                <button onclick="window.location.href = 'image_compress'" class="code-copy">Compress Image</button>
-
+            <button onclick="window.location.href = 'text_compress'" class="code-copy">Compress Text</button>
+            <button onclick="window.location.href = 'image_compress'" class="code-copy">Compress Image</button>
+            <br>
+            <button onclick="window.location.href = 'text_decompress'" class="code-copy">decompress Text</button>
+            <button onclick="window.location.href = 'image_decompress'" class="code-copy">decompress Image</button>
     </div>
-
-
-
 {% endblock content%}

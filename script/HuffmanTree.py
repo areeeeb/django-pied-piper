@@ -168,27 +168,6 @@ class HuffmanTree:
         self.garbage_bits = 8 - (len(self.encoded_data) % 8)
         self.elements_dict['g_bits'] = self.garbage_bits
 
-    @staticmethod
-    def read_and_get_from_file(file_path):
-        """Reads data from file and returns the dict with encoded_data $ key"""
-        bit_array = bitarray()
-        with open(file_path, 'rb') as fp:
-            # noinspection PyArgumentList
-            bit_array.fromfile(fp)
-        key = bit_array[:8]
-        binary_presentation = bit_array[8:]
-        binary_presentation_length = len(binary_presentation)
-        binary_presentation.tobytes()
-        byte_presentation_int = int.from_bytes(binary_presentation,
-                                               byteorder='big',
-                                               signed=False)
-        encoded_data = bin(byte_presentation_int)[2:]
-        significant_bits_length = binary_presentation_length - len(
-            encoded_data)
-        significant_bits = '0' * significant_bits_length
-        encoded_data = significant_bits + encoded_data
-        return {'key': key, 'encoded_data': encoded_data}
-
     def decompress(self, encoded_file_data):
         """Decompresses the file based on elements_dict"""
         pixel = []
